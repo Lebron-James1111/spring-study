@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-demo01-quickstart" />
+        <module name="spring-demo02-componentscan" />
+        <module name="spring-demo02-componentscan-start" />
       </profile>
     </annotationProcessing>
   </component>
