@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/spring-demo01-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo02-componentscan/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo02-componentscan-start/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo03-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo04-import/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo04-import-selector/pom.xml" />
       </list>
     </option>
   </component>
