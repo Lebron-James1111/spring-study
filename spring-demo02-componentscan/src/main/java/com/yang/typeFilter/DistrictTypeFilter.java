@@ -24,7 +24,7 @@ public class DistrictTypeFilter extends AbstractTypeHierarchyTraversingFilter {
      */
     private PathMatcher pathMatcher;
 
-    /**
+    /**ykZ
      * 定义区域名称(从配置文件获取)
      * 不能使用@Value注解读取properties配置文件的内容
      * 因为负责填充属性值的InstantiationAwareBeanPostProcessor与TypeFilter实例创建不是一回事

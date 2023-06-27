@@ -11,5 +11,9 @@
     <file url="file://$PROJECT_DIR$/spring-demo04-import-selector/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo04-import/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo04-import/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/spring-demo07-lazy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/spring-demo07-lazy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/src/main/resources" charset="UTF-8" />
   </component>
 </project>

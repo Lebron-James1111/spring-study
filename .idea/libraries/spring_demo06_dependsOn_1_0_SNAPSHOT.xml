@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-demo06-dependsOn-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring-demo06-dependsOn/target/spring-demo06-dependsOn-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

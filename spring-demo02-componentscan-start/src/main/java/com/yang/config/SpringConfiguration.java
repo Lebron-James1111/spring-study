@@ -10,6 +10,8 @@ import org.springframework.stereotype.Controller;
  * @author: CY.Ma
  * @date: 2023/6/26 16:43
  * @description:
+ *  如果componentScan中没有指定basePackage
+ *  默认扫描被@ComponentScan注解的类的包以及子包
  */
 @Configuration
 @ComponentScan(basePackages = {"com.yang"},

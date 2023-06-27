@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-demo01-quickstart" />
         <module name="spring-demo04-import" />
+        <module name="spring-demo01-quickstart" />
         <module name="spring-demo02-componentscan-start" />
         <module name="spring-demo03-bean" />
+        <module name="spring-demo06-dependsOn" />
         <module name="spring-demo02-componentscan" />
         <module name="spring-demo04-import-selector" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-demo07-lazy" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

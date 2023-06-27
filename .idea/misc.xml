@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/spring-demo03-bean/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo04-import/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo04-import-selector/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo06-dependsOn/pom.xml" />
       </list>
     </option>
   </component>
