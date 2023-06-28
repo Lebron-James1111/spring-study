@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-demo07-lazy" />
         <module name="spring-demo05-propertySource" />
+        <module name="spring-demo10-basicAno" />
         <module name="spring-demo04-import-registry" />
         <module name="spring-demo03-bean" />
         <module name="spring-demo06-dependsOn" />
