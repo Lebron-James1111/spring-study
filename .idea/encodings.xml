@@ -7,13 +7,25 @@
     <file url="file://$PROJECT_DIR$/spring-demo02-componentscan/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo03-bean/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo03-bean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo04-import-registry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo04-import-registry/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo04-import-selector/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo04-import-selector/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo04-import/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo04-import/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo05-propertySource-yaml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo05-propertySource-yaml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo05-propertySource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo05-propertySource/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/spring-demo07-lazy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/spring-demo07-lazy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo06-dependsOn/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo07-lazy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo07-lazy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo08-conditional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo08-conditional/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo09-profile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo09-profile/src/main/resources" charset="UTF-8" />
   </component>
 </project>

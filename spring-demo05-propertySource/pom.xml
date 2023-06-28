@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yang</groupId>
-    <artifactId>spring-demo04-import-selector</artifactId>
+    <artifactId>spring-demo05-propertySource</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -27,10 +27,14 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.8.13</version>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.3.23</version>
         </dependency>
     </dependencies>
-
 </project>

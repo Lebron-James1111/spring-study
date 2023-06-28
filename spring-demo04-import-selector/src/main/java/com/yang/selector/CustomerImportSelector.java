@@ -13,6 +13,8 @@ import java.io.IOException;
 import java.util.*;
 
 /**
+ * 自定义beanSelector
+ * 使用ImportSelector注入时，bean的名称为全限定类名
  * @author: CY.Ma
  * @date: 2023/6/27 10:34
  * @description:
@@ -25,7 +27,7 @@ public class CustomerImportSelector implements ImportSelector {
     private String expression;
 
     /**
-     * 用户自定义的扫把路径
+     * 用户自定义的扫包路径
      */
     private String customPackage;
 

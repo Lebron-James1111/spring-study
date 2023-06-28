@@ -1,0 +1,13 @@
+# yaml Yet Another Markup Language
+# 写法：同一级的顶头写，描述从属关系，另起一行通常空两个书写，只要同一级从属，空格数相同即可
+# 键和值之间用冒号+空格分割
+jdbc:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/spring_ioc
+  username: root
+  password: 111
+redis:
+  host:
+    my-host: 127.0.0.1
+    her-host: 127.0.0.2
+  port: 6379

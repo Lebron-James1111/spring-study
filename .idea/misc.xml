@@ -11,6 +11,12 @@
         <option value="$PROJECT_DIR$/spring-demo04-import/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo04-import-selector/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo06-dependsOn/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo04-import-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo05-propertySource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo05-propertySource-yaml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo07-lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo08-conditional/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo09-profile/pom.xml" />
       </list>
     </option>
   </component>

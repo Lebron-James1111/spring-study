@@ -22,7 +22,7 @@ public class DistrictTypeFilter extends AbstractTypeHierarchyTraversingFilter {
     /**
      * 定义路径校验的对象
      */
-    private PathMatcher pathMatcher;
+    private final PathMatcher pathMatcher;
 
     /**ykZ
      * 定义区域名称(从配置文件获取)
