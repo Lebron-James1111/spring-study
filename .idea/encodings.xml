@@ -31,5 +31,9 @@
     <file url="file://$PROJECT_DIR$/spring-demo10-basicAno/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo11-jsrAnno/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo11-jsrAnno/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo12-primary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo12-primary/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo13-lifecycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-demo13-lifecycle/src/main/resources" charset="UTF-8" />
   </component>
 </project>

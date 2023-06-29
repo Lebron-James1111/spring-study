@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-demo12-primary" />
         <module name="spring-demo11-jsrAnno" />
         <module name="spring-demo07-lazy" />
         <module name="spring-demo05-propertySource" />
         <module name="spring-demo10-basicAno" />
+        <module name="spring-demo13-lifecycle" />
         <module name="spring-demo04-import-registry" />
         <module name="spring-demo03-bean" />
         <module name="spring-demo06-dependsOn" />

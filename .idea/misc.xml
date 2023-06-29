@@ -19,6 +19,9 @@
         <option value="$PROJECT_DIR$/spring-demo09-profile/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo10-basicAno/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo11-jsrAnno/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo11-primary/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo12-primary/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-demo13-lifecycle/pom.xml" />
       </list>
     </option>
   </component>

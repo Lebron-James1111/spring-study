@@ -20,7 +20,7 @@ public class SpringConditionalTest {
         for (String beanDefinitionName : beanDefinitionNames) {
             System.out.println(beanDefinitionName);
         }
-        DataSource dataSource = ac.getBean("dataSource", DataSource.class);
+        DataSource dataSource = ac.getBean("windowsDataSource", DataSource.class);
         System.out.println(dataSource.getConnection());
 
     }

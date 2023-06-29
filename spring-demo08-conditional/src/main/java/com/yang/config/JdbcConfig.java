@@ -30,7 +30,7 @@ public class JdbcConfig {
      * 创建windows系统测试数据源
      * @return
      */
-    @Bean(name = "dataSource")
+    @Bean(name = "windowsDataSource")
     @Conditional(WindowsCondition.class)
     public DataSource createDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -57,7 +57,7 @@ public class JdbcConfig {
      *  千万不要重名，重名之后会有bug，bug详见后面分析
      *  最终在测试类中拿到的bean的名称是windowsDataSource,但其实这个bean是linuxDataSource，通过getConnection可以校验
      */
-    @Bean(name = "dataSource")
+    @Bean(name = "linuxDataSource")
     @Conditional(LinuxCondition.class)
     public DataSource createDataSource(@Value("${linux.driver}") String linuxDriver,
                                        @Value("${linux.url}") String linuxUrl,
