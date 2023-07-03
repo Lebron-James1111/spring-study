@@ -5,7 +5,6 @@ import com.yang.domain.Account;
 import com.yang.service.AccountService;
 import com.yang.utils.TransactionManager;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.sql.Connection;
 import java.util.List;
@@ -16,8 +15,8 @@ import java.util.List;
  * @date: 2023/6/28 15:24
  * @description:
  */
-@Service("accountService")
-public class AccountServiceImpl implements AccountService {
+//@Service
+public class AccountServiceImplOld implements AccountService {
 
     @Autowired
     private AccountDao accountDao;
@@ -55,19 +54,25 @@ public class AccountServiceImpl implements AccountService {
         Account sourceAccount = accountDao.findByName(sourceName);
         // 2.根据名称查询转入账户
         Account targetAccount = accountDao.findByName(targetName);
+        Connection connection = transactionManager.begin();
+        try {
+            // 3.转出账户减钱
+            sourceAccount.setMoney(sourceAccount.getMoney() - money);
+            // 4.转入账户加钱
+            targetAccount.setMoney(targetAccount.getMoney() + money);
+            // 5.更新转出账户
+            accountDao.update(sourceAccount);
 
-        // 3.转出账户减钱
-        sourceAccount.setMoney(sourceAccount.getMoney() - money);
-        // 4.转入账户加钱
-        targetAccount.setMoney(targetAccount.getMoney() + money);
-        // 5.更新转出账户
-        accountDao.update(sourceAccount);
-
-        // 模拟异常
-        int i = 1 / 0;
-        // 6.更新转入账户
-        accountDao.update(targetAccount);
-
+            // 模拟异常
+            int i = 1 / 0;
+            // 6.更新转入账户
+            accountDao.update(targetAccount);
+            transactionManager.commit(connection);
+        } catch (Exception e) {
+            transactionManager.rollback(connection);
+        } finally {
+            transactionManager.close(connection);
+        }
 
     }
 

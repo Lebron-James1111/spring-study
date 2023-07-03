@@ -1,11 +1,14 @@
 package com.yang;
 
 import com.yang.domain.Account;
+import com.yang.service.AbstractSpringService;
+import com.yang.service.AbstractSpringServiceImpl;
 import com.yang.service.AccountService;
 import config.SpringConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -21,7 +24,11 @@ import java.util.List;
 public class SpringTest {
 
     @Autowired
+    @Qualifier("proxyAccountService")
     private AccountService accountService;
+
+    @Autowired
+    private AbstractSpringServiceImpl abstractSpringService;
 
     @Test
     public void testSave() {
@@ -54,15 +61,11 @@ public class SpringTest {
 
     @Test
     public void transferTest() throws InterruptedException {
-        new Thread(() -> {
-            accountService.transfer("caicai", "machenyang", 1000D);
-        }).start();
+        accountService.transfer("caicai", "machenyang", 1000D);
+    }
 
-        new Thread(() -> {
-            accountService.transfer("caicai", "machenyang", 1000D);
-        }).start();
-
-        Thread.sleep(10000L);
-
+    @Test
+    public void test() {
+        abstractSpringService.save();
     }
 }
