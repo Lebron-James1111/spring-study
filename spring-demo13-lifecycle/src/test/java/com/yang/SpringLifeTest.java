@@ -1,7 +1,6 @@
 package com.yang;
 
 import com.yang.utils.LogUtil;
-import config.SpringConfiguration;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -14,8 +13,8 @@ public class SpringLifeTest {
 
     @Test
     public void test() {
-//        AnnotationConfigApplicationContext ac = new AnnotatioAnConfigApplicationContext("config");
-        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(SpringConfiguration.class);
+        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext("config");
+//        AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(SpringConfiguration.class);
         LogUtil logUtil = ac.getBean("logUtil", LogUtil.class);
         System.out.println(logUtil);
         ac.close();

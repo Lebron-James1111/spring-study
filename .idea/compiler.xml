@@ -15,6 +15,7 @@
         <module name="spring-demo04-import-registry" />
         <module name="spring-demo03-bean" />
         <module name="spring-demo06-dependsOn" />
+        <module name="springapo-demo01-proxy" />
         <module name="spring-demo04-import" />
         <module name="spring-demo08-conditional" />
         <module name="spring-demo09-profile" />
