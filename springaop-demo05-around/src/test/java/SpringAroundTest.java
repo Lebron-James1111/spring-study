@@ -19,6 +19,14 @@ public class SpringAroundTest {
         user.setName("菜菜");
         user.setAge(23);
         user.setGender("女");
+        // 测试保存
         userService.save(user);
+        System.out.println("------------");
+        User byId = userService.findById("1");
+        System.out.println("执行了查询操作：" + byId);
+        System.out.println("------------");
+        userService.update(user);
+        System.out.println("------------");
+        userService.del("1");
     }
 }

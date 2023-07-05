@@ -16,4 +16,23 @@ public class UserServiceImpl implements UserService {
     public void save(User user) {
         System.out.println("保存了用户：" + user);
     }
+
+    @Override
+    public User findById(String id) {
+        User user = new User();
+        user.setName("菜菜");
+        user.setAge(23);
+        user.setGender("女");
+        return user;
+    }
+
+    @Override
+    public void update(User user) {
+        System.out.println("执行了更新用户：" + user);
+    }
+
+    @Override
+    public void del(String id) {
+        System.out.println("执行了删除用户：" + id);
+    }
 }
