@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/spring-demo12-primary/pom.xml" />
         <option value="$PROJECT_DIR$/spring-demo13-lifecycle/pom.xml" />
         <option value="$PROJECT_DIR$/springapo-demo01-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo05-around/pom.xml" />
       </list>
     </option>
   </component>

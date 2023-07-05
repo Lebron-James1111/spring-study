@@ -35,6 +35,8 @@
     <file url="file://$PROJECT_DIR$/spring-demo12-primary/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo13-lifecycle/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo13-lifecycle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo05-around/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo05-around/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springapo-demo01-proxy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springapo-demo01-proxy/src/main/resources" charset="UTF-8" />
   </component>
