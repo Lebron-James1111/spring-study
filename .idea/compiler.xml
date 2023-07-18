@@ -6,25 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-demo12-primary" />
         <module name="spring-demo11-jsrAnno" />
-        <module name="spring-demo07-lazy" />
         <module name="spring-demo05-propertySource" />
-        <module name="spring-demo10-basicAno" />
-        <module name="spring-demo13-lifecycle" />
-        <module name="springaop-demo05-around" />
-        <module name="spring-demo04-import-registry" />
+        <module name="springaop-demo01-proxy" />
         <module name="spring-demo03-bean" />
         <module name="spring-demo06-dependsOn" />
-        <module name="springapo-demo01-proxy" />
+        <module name="springaop-demo02-qucikstart" />
+        <module name="springaop-demo05-general" />
+        <module name="springaop-demo07-declareParents" />
+        <module name="springaop-demo08-enableloadtimeweaving" />
+        <module name="springaop-demo03-aspect" />
+        <module name="spring-demo02-componentscan" />
+        <module name="spring-demo05-propertySource-yaml" />
+        <module name="spring-demo04-import-selector" />
+        <module name="spring-demo12-primary" />
+        <module name="spring-demo07-lazy" />
+        <module name="spring-demo10-basicAno" />
+        <module name="spring-demo13-lifecycle" />
+        <module name="springaop-demo06-around" />
+        <module name="spring-demo04-import-registry" />
+        <module name="springaop-demo04-pointcut" />
         <module name="spring-demo04-import" />
         <module name="spring-demo08-conditional" />
         <module name="spring-demo09-profile" />
         <module name="spring-demo01-quickstart" />
         <module name="spring-demo02-componentscan-start" />
-        <module name="spring-demo02-componentscan" />
-        <module name="spring-demo05-propertySource-yaml" />
-        <module name="spring-demo04-import-selector" />
+        <module name="extra-cglib" />
       </profile>
     </annotationProcessing>
   </component>

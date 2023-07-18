@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/extra-cglib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extra-cglib/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo02-componentscan-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo02-componentscan-start/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo02-componentscan/src/main/java" charset="UTF-8" />
@@ -35,9 +37,21 @@
     <file url="file://$PROJECT_DIR$/spring-demo12-primary/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo13-lifecycle/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-demo13-lifecycle/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springaop-demo05-around/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springaop-demo05-around/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springapo-demo01-proxy/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springapo-demo01-proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo01-proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo01-proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo02-qucikstart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo02-qucikstart/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo03-aspect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo03-aspect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo04-pointcut/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo04-pointcut/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo05-general/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo05-general/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo06-around/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo06-around/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo07-declareParents/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo07-declareParents/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo08-enableloadtimeweaving/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springaop-demo08-enableloadtimeweaving/src/main/resources" charset="UTF-8" />
   </component>
 </project>

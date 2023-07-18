@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -24,6 +23,15 @@
         <option value="$PROJECT_DIR$/spring-demo13-lifecycle/pom.xml" />
         <option value="$PROJECT_DIR$/springapo-demo01-proxy/pom.xml" />
         <option value="$PROJECT_DIR$/springaop-demo05-around/pom.xml" />
+        <option value="$PROJECT_DIR$/extra-cglib/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo02-qucikstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo01-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo03-aspect/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo04-pointcut/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo05-general/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo06-around/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo07-declareParents/pom.xml" />
+        <option value="$PROJECT_DIR$/springaop-demo08-enableloadtimeweaving/pom.xml" />
       </list>
     </option>
   </component>
